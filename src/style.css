@@ -41,10 +41,12 @@ body {
 
 header {
   width: 1800px;
-  height: 700px;
+  
   margin-left: auto;
   margin-right: auto;
   margin-top: 215px;
+  border: 1px solid red;
+  margin-bottom: 230px; 
 }
 
 header h1 {
@@ -112,6 +114,7 @@ header p {
   display: flex;
   justify-content: space-between;
   margin-top: 200px;
+  align-items: flex-start;
 }
 
 .videos {
@@ -164,4 +167,52 @@ header p {
   position: absolute;
   left: 24px;
   bottom: 32px;
+}
+
+.container {
+  width: 1056px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red
+}
+
+.header-1 {
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  letter-spacing: 0.41px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 95px;
+}
+
+.instructor-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instructor_name {
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.31px;
+}
+
+.instructor-photo {
+  margin-bottom:  35px;
+}
+
+.instructor {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.instructor_students {
+  color: #2ab738;
+  line-height: 0.14px;
+  font-weight: 500px;
+  letter-spacing: 0.31px;
+  font-size: 15px;
+  margin-top: 20px;
 }
