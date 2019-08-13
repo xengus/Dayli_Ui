@@ -2,6 +2,7 @@ body {
   font-family: 'Lato', sans-serif;
   background-color:red;
   width: 1800px;
+  padding-bottom: 200px;
 }
 
 .nav-wrap {
@@ -41,11 +42,9 @@ body {
 
 header {
   width: 1800px;
-  
   margin-left: auto;
   margin-right: auto;
   margin-top: 215px;
-  border: 1px solid red;
   margin-bottom: 230px; 
 }
 
@@ -173,7 +172,6 @@ header p {
   width: 1056px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red
 }
 
 .header-1 {
@@ -189,6 +187,7 @@ header p {
 .instructor-wrapper {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 255px;
 }
 
 .instructor_name {
@@ -215,4 +214,88 @@ header p {
   letter-spacing: 0.31px;
   font-size: 15px;
   margin-top: 20px;
+}
+
+.blog-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 190px;
+}
+
+.blog-item:nth-last-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.blog-item:last-child {
+  margin-bottom: 250px;
+}
+
+.blog-item_img {
+
+}
+
+.blog-item-content {
+  width: 450px;
+}
+
+.blog-item_header {
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-style: italic;
+  letter-spacing: 0.33px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.blog-item_desc {
+  color: #444444;
+  font-size: 400; 
+  line-height: 1.9;
+  letter-spacing: 0.06px; 
+  margin-bottom: 50px;
+
+}
+
+.blog-item_readmore {
+  display: inline-block;
+  height: 52px;
+  border: 1px solid #e5e5e5;
+  padding: 16px 30px 0;
+  line-height: 1;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.06px;
+  text-decoration: none;
+}
+
+.blog-item_readmore:hover {
+  text-decoration: none;
+  background-color: #41475b;
+  color: skyblue;
+}
+
+.button {
+  display: inline-block;
+  height: 56px;
+  line-height: 1;
+  padding: 18px 45px 0;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid #41475b;
+  background-color: #ffffff;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+
+.button:hover {
+  text-decoration: none;
+  background-color: #000;
+  color: #FFF
+}
+
+.text-center {
+  text-align: center;
 }
